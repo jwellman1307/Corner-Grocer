@@ -1,6 +1,33 @@
-# Corner-Grocer
-Corner Grocer is a tracking program designed to record and analyze customer items purchased in the Corner Grocer store throughout the day. The program has four main options, which provide different functionalities. The program requires the user to input a file containing the list of items purchased and the number of times each item appears in the input file. The program will then create a backup file that will store every item. 
+# Corner Grocer – Item Tracking Application
 
-What I did well was writing a simple code that kept the main menu clean and easy to use. What I could have done better was continue to improve the code to help with neatness and readability. It did not have many comment lines and it was difficult to navigate the code if I needed to fix a specific issue. The piece of code that I found the most difficult to write was the code to get the program to read the initial file containing the list of items purchased. Once, I found the resolution, the overall code was simple to put together. 
+## Overview
+Corner Grocer is a C++ console application designed to track and analyze items purchased throughout a business day. The program processes an input file containing item names and generates frequency-based insights while maintaining a backup record of all processed data.
 
-I believe that all the skills that I have learned in this class will be transferrable to other projects. This is the first program that I have written to be able to read information and create a backup file to store information. It was a difficult concept to wrap my head around, but overall the course was well worth the time invested. I tried to make the program maintainable and readable through proper line spacing, but I think it would have been more effective to leave comments in between to note transitions.
+This project demonstrates foundational programming concepts including file input/output, data aggregation, and menu-driven user interaction.
+
+## Features
+- Read item purchase data from an input file
+- Count frequency of each item purchased
+- Display item purchase totals to the user
+- Generate a backup file storing item frequency data
+- Menu-driven interface for user interaction
+
+## Technologies Used
+- **C++**
+- **File I/O**
+- **Standard Template Library (STL)**
+- **Command-line interface design**
+
+## Program Workflow
+1. User provides an input file containing purchased items
+2. Program processes and counts item occurrences
+3. Results are displayed through menu options
+4. A backup file is generated to store processed data
+5. User can view results or exit the application
+
+## What This Project Demonstrates
+- Data processing using file input streams
+- Basic analytics through frequency counting
+- CLI menu design and user input handling
+- Backup data generation for persistence
+- Clean separation of program flow and logic
